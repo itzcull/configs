@@ -18,3 +18,13 @@ set scrolloff=8
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
+call plug#begin('~/.vim/plugged')
+
+Plug 'preservim/NERDTree'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
+Plug 'ryanoasis/vim-devicons'
+Plug 'nerdtree-git-plugin'
+
+call plug#end()
