@@ -15,6 +15,7 @@ set undofile
 set incsearch
 set termguicolors
 set scrolloff=8
+set spell
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
