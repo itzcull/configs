@@ -1,13 +1,4 @@
-export ZSH="$HOME/.oh-my-zsh"
-
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="half-life"
-
 CASE_SENSITIVE="true"
-
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
 
 # Enable NVM
 export NVM_DIR="$HOME/.nvm"
