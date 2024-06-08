@@ -15,9 +15,7 @@
     }
   },
   "files": {
-    "ignore": [
-      "node_modules"
-    ],
+    "ignore": ["node_modules"],
     "ignoreUnknown": false,
     "include": [
       "**/*.ts",
@@ -37,7 +35,6 @@
     "enabled": true,
     "formatWithErrors": false,
     "include": [],
-    "indentSize": 2,
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
@@ -50,7 +47,6 @@
       "bracketSameLine": false,
       "bracketSpacing": true,
       "enabled": true,
-      "indentSize": 2,
       "indentStyle": "space",
       "indentWidth": 2,
       "jsxQuoteStyle": "double",
@@ -59,7 +55,6 @@
       "quoteProperties": "asNeeded",
       "quoteStyle": "single",
       "semicolons": "asNeeded",
-      "trailingComma": "none",
       "trailingCommas": "none"
     },
     "globals": [],
@@ -71,7 +66,6 @@
   "json": {
     "formatter": {
       "enabled": true,
-      "indentSize": 2,
       "indentStyle": "space",
       "indentWidth": 2,
       "lineEnding": "lf",
@@ -87,7 +81,6 @@
     "enabled": true,
     "rules": {
       "a11y": {
-        "all": null,
         "noAccessKey": "off",
         "noAriaHiddenOnFocusable": "error",
         "noAriaUnsupportedElements": "error",
@@ -102,7 +95,6 @@
         "noRedundantAlt": "warn",
         "noRedundantRoles": "warn",
         "noSvgWithoutTitle": "warn",
-        "recommended": null,
         "useAltText": "warn",
         "useAnchorContent": "warn",
         "useAriaActivedescendantWithTabindex": "warn",
@@ -120,9 +112,7 @@
         "useValidAriaValues": "error",
         "useValidLang": "error"
       },
-      "all": null,
       "complexity": {
-        "all": null,
         "noBannedTypes": "error",
         "noEmptyTypeParameters": "error",
         "noExcessiveCognitiveComplexity": "warn",
@@ -145,7 +135,6 @@
         "noUselessTypeConstraint": "error",
         "noVoid": "error",
         "noWith": "error",
-        "recommended": null,
         "useArrowFunction": "off",
         "useFlatMap": "warn",
         "useLiteralKeys": "warn",
@@ -155,7 +144,6 @@
         "useSimplifiedLogicExpression": "error"
       },
       "correctness": {
-        "all": null,
         "noChildrenProp": "error",
         "noConstantCondition": "error",
         "noConstantMathMinMaxClamp": "error",
@@ -192,7 +180,6 @@
         "noUnusedVariables": "error",
         "noVoidElementsWithChildren": "error",
         "noVoidTypeReturn": "error",
-        "recommended": null,
         "useArrayLiterals": "error",
         "useExhaustiveDependencies": "warn",
         "useHookAtTopLevel": "error",
@@ -202,7 +189,6 @@
         "useYield": "error"
       },
       "nursery": {
-        "all": null,
         "noConsole": "off",
         "noDoneCallback": "error",
         "noDuplicateAtImportRules": "error",
@@ -234,7 +220,6 @@
         "noUselessStringConcat": "error",
         "noUselessUndefinedInitialization": "error",
         "noYodaExpression": "error",
-        "recommended": null,
         "useAdjacentOverloadSignatures": "error",
         "useConsistentBuiltinInstantiation": "warn",
         "useDateNow": "error",
@@ -251,14 +236,8 @@
           "fix": "safe",
           "level": "error",
           "options": {
-            "attributes": [
-              "className",
-              "class"
-            ],
-            "functions": [
-              "classNames",
-              "clsx"
-            ]
+            "attributes": ["className", "class"],
+            "functions": ["classNames", "clsx"]
           }
         },
         "useThrowNewError": "error",
@@ -266,23 +245,17 @@
         "useTopLevelRegex": "error"
       },
       "performance": {
-        "all": null,
         "noAccumulatingSpread": "error",
         "noBarrelFile": "error",
         "noDelete": "error",
-        "noReExportAll": "error",
-        "recommended": null
+        "noReExportAll": "error"
       },
-      "recommended": null,
       "security": {
-        "all": null,
         "noDangerouslySetInnerHtml": "warn",
         "noDangerouslySetInnerHtmlWithChildren": "error",
-        "noGlobalEval": "error",
-        "recommended": null
+        "noGlobalEval": "error"
       },
       "style": {
-        "all": null,
         "noArguments": "error",
         "noCommaOperator": "error",
         "noDefaultExport": {
@@ -308,7 +281,6 @@
         "noUnusedTemplateLiteral": "error",
         "noUselessElse": "error",
         "noVar": "error",
-        "recommended": null,
         "useAsConstAssertion": "warn",
         "useBlockStatements": "warn",
         "useCollapsedElseIf": "error",
@@ -326,11 +298,7 @@
         "useFilenamingConvention": {
           "level": "warn",
           "options": {
-            "filenameCases": [
-              "export",
-              "PascalCase",
-              "camelCase"
-            ],
+            "filenameCases": ["export", "PascalCase", "camelCase"],
             "requireAscii": true,
             "strictCase": false
           }
@@ -362,7 +330,6 @@
         "useWhile": "warn"
       },
       "suspicious": {
-        "all": null,
         "noApproximativeNumericConstant": "error",
         "noArrayIndexKey": "error",
         "noAssignInExpressions": "error",
@@ -412,7 +379,6 @@
         "noThenProperty": "error",
         "noUnsafeDeclarationMerging": "error",
         "noUnsafeNegation": "error",
-        "recommended": null,
         "useAwait": "error",
         "useDefaultSwitchClauseLast": "error",
         "useGetterReturn": "error",
